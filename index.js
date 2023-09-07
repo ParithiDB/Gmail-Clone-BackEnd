@@ -33,9 +33,8 @@ app.post('/send-email', async (req, res) => {
       // port: 587,
       // secure: false,
       // auth: {
-      //   user: 'nikita.lemke32@ethereal.email',
-      //   pass: 'RYSWAzXW4ZBauXyNVb',
-      //   }
+        // in env
+      //  }
       // host: "'smtp.elasticemail.com",
       // port: 2525,
       // auth: {

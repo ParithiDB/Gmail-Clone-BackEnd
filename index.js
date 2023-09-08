@@ -50,7 +50,7 @@ app.post('/send-email', async (req, res) => {
   
       // Email data
       const mailOptions = {
-        from: 'samu.aidindia@gmail.com',
+        from: `'Doggooo' <${process.env.EMAIL}>`,
         to,
         subject,
         text: body,

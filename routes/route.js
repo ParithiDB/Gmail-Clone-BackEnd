@@ -4,7 +4,7 @@ const { saveSendEmails, getEmails, toggleStarredEmail, deleteEmails, moveEmailsT
 const routes = express.Router();
 
 routes.post('/save', saveSendEmails);
-routes.post('/save-draft', saveSendEmails);
+routes.post('/savedraft', saveSendEmails);
 routes.get('/emails/:type', getEmails);
 routes.post('/starred', toggleStarredEmail);
 routes.delete('/delete', deleteEmails);
